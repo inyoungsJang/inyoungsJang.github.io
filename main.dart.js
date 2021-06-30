@@ -44662,10 +44662,10 @@ N:function(a,b){var s=null
 return T.Ys(M.nY(s,this.P6(0),s,s,s,s,s),s,s)}}
 S.TG.prototype={
 $0:function(){var s,r,q=this,p=q.b
-if(!C.c.v(p,"SM-P")||!C.c.v(p,"SM-T")){q.a.e=!1
+if(C.c.v(p,"SM-P")||C.c.v(p,"SM-T")||C.c.v(p,"iPad")){q.a.e=!0
 P.fi("user agent : "+q.c.z)}else{s=q.a
 r=q.c.z
-if(C.c.v(p,"iPhone")){s.e=!1
+if(C.c.v(p,"Mobile")){s.e=!1
 P.fi("user agent : "+r)}else{s.e=!0
 P.fi("user agent : "+r)}}},
 $S:0}
