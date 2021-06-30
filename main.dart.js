@@ -44671,15 +44671,15 @@ N:function(a,b){var s=null
 return T.Ys(M.nY(s,this.P7(0),s,s,s,s,s),s,s)}}
 S.TG.prototype={
 $0:function(){var s,r,q,p=this,o="user agent contains : ",n=p.c
-if(C.c.v(n,"android")){p.b.e=!1
-n=p.a
-n.a=!0
+if(C.c.v(n,"SM-P")||C.c.v(n,"SM-T")){p.b.e=!1
+s=p.a
+s.a=C.c.v(n,"android")
 P.dg("user agent : "+p.d.z)
-P.dg(o+H.c(n.a))}else{s=p.b
+P.dg(o+H.c(s.a))}else{s=p.b
 r=p.a
 q=p.d.z
-if(C.c.v(n,"ios")){s.e=!1
-r.a=!0
+if(C.c.v(n,"iPhone")){s.e=!1
+r.a=C.c.v(n,"ios")
 P.dg("user agent : "+q)
 P.dg(o+H.c(r.a))}else{s.e=!0
 r.a=C.c.v(n,"")
