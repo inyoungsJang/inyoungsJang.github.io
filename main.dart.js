@@ -44667,7 +44667,7 @@ N:function(a,b){var s=null
 return T.Ys(M.nY(s,this.P6(0),s,s,s,s,s),s,s)}}
 S.TG.prototype={
 $0:function(){var s,r,q,p=this,o="user agent contains : ",n=p.b
-if(!C.c.v(n,"SM-P")||!C.c.v(n,"SM-T")){p.a.e=!1
+if(C.c.v(n,"SM-P")||C.c.v(n,"SM-T")){p.a.e=!1
 P.dg("user agent : "+p.c.z)
 P.dg(o+H.c(p.d))}else{s=p.a
 r=p.d
